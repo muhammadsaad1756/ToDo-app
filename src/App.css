@@ -36,6 +36,199 @@ h1 {
   margin-bottom: 1rem;
 }
 
+.todo-input,
+.todo-deadline {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder,
+.todo-deadline::placeholder {
+  color: #fcfcfc4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters button {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s;
+}
+
+.Todo:hover {
+  background-color: #6f4abf;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.deadline {
+  font-size: 0.8em;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  color: #c5aeff;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-table th,
+.todo-table td {
+  border: 1px solid #8758ff;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.todo-table th {
+  background-color: #1a1a40;
+  color: #fff;
+}
+
+.todo-row {
+  background-color: #1a1a40;
+}
+
+.todo-row.overdue {
+  background-color: red;
+}
+/* Add these styles to App.css */
+/*
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.todo-table th,
+.todo-table td {
+  border: 1px solid #8758ff;
+  padding: 0.75rem;
+  text-align: left;
+  color: #fff;
+}
+
+.todo-table th {
+  background-color: #1a1a40;
+}
+
+.todo-table td {
+  background-color: #2a2a72;
+}
+
+.todo-table .overdue {
+  background-color: red;
+}
+
+.todo-table tr:hover td {
+  background-color: #6f4abf;
+}
+
+.todo-table .completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+
+.todo-table .incompleted {
+  color: #fff;
+}
+*/
+
+/*
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1a1a40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
 .todo-input {
   outline: none;
   background: none;
@@ -89,3 +282,4 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
+*/
